@@ -1,0 +1,354 @@
+<html>
+<head>
+<style>
+body{
+margin: 0;
+padding: 0;
+background-color: #00b1ff1a;
+font-family:  Roboto , 'Segoe UI' ,  Tahoma , 'Segoe UI', sans-serif;
+}
+ li,a,button{
+font-weight: 400;
+text-decoration: none;
+font-size: 81.25%;
+font-family: Roboto, 'Segoe UI' , Tahoma, 'Segoe UI', sans-serif;
+}
+header{
+display: flex;
+align-items: center;
+background-color: white;
+line-height: 200%;
+}
+.logo{
+cursor: pointer;
+margin-right: auto;
+font-weight: bolder;
+font-size: 50px;
+font-family:  Roboto, 'Segoe UI' , Tahoma, 'Segoe UI', sans-serif;
+}
+.nav_links{
+list-style: none;
+}
+.nav_links li{
+display: inline-block;
+padding: 0px 50px;
+}
+.nav_links li a{
+transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+color:lightskyblue;
+margin-right: 200px;
+ }
+.cta{
+margin-right: 100px;
+width: 7%;
+}
+button{
+padding: 5px 10px;
+color: #1a75ff;
+border: 1px solid #66d1ff;
+cursor: pointer;
+background-color: white;
+border-radius: 2px;
+transition: all 0.3s ease 0s;
+font-size: 12px;
+}
+p{
+text-align: center;
+}
+p.center{
+font-weight: bolder;
+font-size: 20px;
+font-family:  Roboto, 'Segoe UI' , Tahoma, 'Segoe UI', sans-serif;
+line-height: 20.02px; 
+}
+p.large{
+font-size: 40px;
+font-family:  Roboto, 'Segoe UI' , Tahoma, 'Segoe UI', sans-serif;
+}
+.ripple{
+border: none;
+padding: 5px 10px;
+cursor: pointer;
+background-color: #1a75ff;
+color: white;
+text-align: center;
+border-radius: 2px;
+font-size: 12px;
+}
+.wrapper1{
+text-align: center;
+}
+.g{
+padding-top: 5px;
+padding-bottom: 100px;
+font-family:  Roboto, 'Segoe UI' , Tahoma, 'Segoe UI', sans-serif;
+line-height: 20.2px;
+}
+.d{
+background-color: white;
+padding-top: 100px;
+padding-bottom: 100px;
+font-family:  Roboto, 'Segoe UI' , Tahoma, 'Segoe UI', sans-serif;
+line-height: 10px;
+}
+.c{
+font-size: 15px;
+margin-left: 700px;
+font-family:  Roboto, 'Segoe UI' , Tahoma, 'Segoe UI', sans-serif;
+line-height: 20.2px;
+}
+h5{
+font-size: 50px;
+text-align: center;
+font-family:  Roboto, 'Segoe UI' , Tahoma, 'Segoe UI', sans-serif;
+}
+h2{
+font-size: 40px;
+margin-left: 100px;
+}
+h3{
+font-size: 15px;
+margin-left: 100px;
+}
+.b{
+font-size: 15px;
+line-height: 20.2px;
+margin-left: 100px;
+}
+h4{
+font-size: 40px;
+margin-left: 700px;
+}
+h6{
+font-size: 15px;
+margin-left: 700px;
+}
+.e{
+line-height: 20.2px;
+}
+.man{
+font-weight: bolder;
+font-size: 50px;
+padding-right: 300px;
+}
+.text{
+display: flex;
+background-color: white;
+justify-content: center;
+width: 1650px;
+padding-top: 70px;
+padding-bottom: 70px;
+font-size: 17px;
+}
+ul{
+list-style: none;
+}
+footer a{
+color: black;
+text-decoration: none;
+}
+.continer{
+width: 80%;
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+margin: 0 auto;
+align-items: flex;
+justify-content: center;
+}
+div.content1{
+height: 425px;
+background-color: white;
+width: 250px;
+text-align: center;
+float: left;
+margin: 20px;
+font-size: 14px;
+padding-top: 20px;
+}
+div.content2{
+height: 425px;
+background-color: white;
+width: 250px;
+text-align: center;
+float: left;
+margin: 20px;
+font-size: 14px;
+padding-top: 20px;
+}
+div.content3{
+height: 425px;
+background-color: white;
+width: 250px;
+text-align: center;
+float: left;
+margin: 20px;
+font-size: 14px;
+padding-top: 20px;
+}
+.header1{
+font-weight: bolder;
+font-size: 15px;
+}
+footer .maxi{
+display: flex;
+background-color: white;
+float: left;
+flex-direction: row;
+background-color: white;  
+padding-top: 20px;
+padding-bottom: 20px;
+}
+footer ul{
+list-style: none;
+width: 190px;
+}
+footer a{
+color: black;
+text-decoration: none;
+font-size: 12px;
+font-family:  Roboto, 'Segoe UI' , Tahoma , 'Segoe UI', sans-serif;
+line-height: 20.02px; 
+}
+.logo{
+cursor: pointer;
+margin-right: auto;
+font-weight: bolder;
+font-size: 25px;
+}
+.lag{
+display: flex;
+}
+h1{
+font-size: 15px;
+}
+.lag{
+margin-left: 50px;
+width: 90%;
+height: 5%;
+font-size: 12px;
+font-family:   Roboto , 'Segoe UI' , Tahoma , 'Segoe UI', sans-serif;
+}
+</style>    
+</head>
+<body>
+<header>
+<div class="logo">LOGO</div>
+<nav>
+<div class="nav_links">
+<li> Home</li>
+<li>How it works</li>
+<li>Solutions</li>
+<li>Resources</li>
+<ul></ul>
+</nav>
+<a class="cta" href="a"><button>Button</button></a>
+</header>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<p class="center large">WE ARE LIONCIRCUITS</p>
+<p class="center">we do this and that and everything in between</p>
+</div>
+<div class="wrapper1">
+<button class="ripple">BUTTON</button>
+<button type="button" onclick="alert('you pressed the button')">BUTTON</button>
+</div>
+<br></br>
+<br></br>
+<br></br>
+<br>
+<br>
+<br>
+<br>
+<div class="text">
+<ul>
+<div class="man">300+</div>
+<li>Happy Customer</li>
+</ul>
+<ul>
+<div class="man">6.2K+</div>
+<li>Hours Worked</li>
+</ul>
+<ul>
+<div class="man">98%</div>
+<li>Average Rating</li>
+</ul>
+</div>
+<br></br>
+<br></br>
+<br></br>
+<div class="g">
+<h5>Benefits<h5>
+<h2>Excepture Sint occaeuiecat</h2>
+<div class="b">lorem ipsum dolor sit amet,consectetur do in adipisicing elit,sed eiusmod tempors<br>incidunt ut ero labore dolore magna aliqua.ut enim ad minim veniam,quis nostrud<br>exercitation ullam poriti labor nisi ut aliquip ex commodo consequat.duis sghjkd js<br>excepture sinta occaecat cupidata norin proident,sunt ina culpa qui offici excepture</div>
+<br>
+<h3>LOREM IPSUM DOLOR AMET CONSECTETUER</h3>
+<h4>Excepture Sint occaeuiecat</h4>
+<div class="c">lorem ipsum dolor sit amet,consectetur do in adipisicing elit,sed eiusmod tempors<br>incidunt ut ero labore dolore magna aliqua.ut enim ad minim veniam,quis nostrud<br>exercitation ullam poriti labor nisi ut aliquip ex commodo consequat.duis sghjkd js<br>excepture sinta occaecat cupidata norin proident,sunt ina culpa qui offici excepture</div>
+<h6>LOREM IPSUM DOLOR AMET CONSECTETUER</h6>
+</div>
+<br>
+<br>
+<br>
+<div class="d">
+<h5>Features<h5>
+<h2>Excepture Sint occaeuiecat</h2>
+<div class="b">lorem ipsum dolor sit amet,consectetur do in adipisicing elit,sed eiusmod tempors<br>incidunt ut ero labore dolore magna aliqua.ut enim ad minim veniam,quis nostrud<br>exercitation ullam poriti labor nisi ut aliquip ex commodo consequat.duis sghjkd js<br>excepture sinta occaecat cupidata norin proident,sunt ina culpa qui offici excepture</div>
+<br>
+<h3>LOREM IPSUM DOLOR AMET CONSECTETUER</h3>
+<h4>Excepture Sint occaeuiecat</h4>
+<div class="c">lorem ipsum dolor sit amet,consectetur do in adipisicing elit,sed eiusmod tempors<br>incidunt ut ero labore dolore magna aliqua.ut enim ad minim veniam,quis nostrud<br>exercitation ullam poriti labor nisi ut aliquip ex commodo consequat.duis sghjkd js<br>excepture sinta occaecat cupidata norin proident,sunt ina culpa qui offici excepture</div>
+<h6>LOREM IPSUM DOLOR AMET CONSECTETUER</h6>
+</div>
+<h5>Pricing</h5>
+<div class="continer">
+<div class="content1"><h1>30 DAY TRIL</h1>1 account<br><br><br><br><br><br><br><br><br><br><br><br>A lorem ipsum dolor sit amet,<br>consectetur do in adipisicing<br> elit,sed eiusmod tempors<br><br>-<h1>CURRENT PLAN</h1></div>
+<div class="content2"><h1>PERSONAL</h1>5 account<br><br><br><br><br><br><br><br><br><br><br><br>A lorem ipsum dolor sit amet,<br>consectetur do in adipisicing<br> elit,sed eiusmod tempors<br><br>+<h1>UPGRADE</h1></div>
+<div class="content3"><h1>BUSINESS</h1>10 account<br><br><br><br><br><br><br><br><br><br><br><br>A lorem ipsum dolor sit amet,<br>consectetur do in adipisicing<br> elit,sed eiusmod tempors<br><br>+<h1>UPGRADE</h1></div>
+</div>
+<footer>
+<div class="maxi">
+<ul>
+<div class="logo">LOGO</div>
+</ul>
+<ul>
+<div class="header1">How it works?</div>
+<li><a>How it works?</a></li>
+</ul>
+<ul>
+<div class="header1">Services</div>
+<li><a href="">Fabrication</a></li>
+<li><a href="">Assembly</a></li>
+<li><a href="">Component Procurement</a></li>
+</ul>
+<ul>
+<div class="header1">Resources</div>
+<li><a href="">User Guides</a></li>
+<li><a href="">Blog</a></li>
+<li><a href="">Capablities</a></li>
+<li><a href="">FAQ</a></li>  
+</ul>
+<ul>
+<div class="header1">Company</div>
+<li><a href="">About Us</a></li>
+<li><a href="">Quality Assurence</a></li>
+<li><a href="">Security</a></li>
+<li><a href="">Shipping Information</a></li>
+<li><a href="">Payment Information</a></li>
+</ul>
+<ul>
+<div class="header1">Get in Touch</div>
+<li><a href="">Contact Option</a></li>
+</ul>
+</div>
+</footer>
+<footer>
+<div class="lag">All Right Reserved 2015-2019 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Terms of use &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Privacy Policy </div>
+</footer>            
+</body> 
+</html>
